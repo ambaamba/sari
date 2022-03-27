@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Name">
+
+    <link rel="shortcut icon" type="image/png" href="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+	  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+    <title>Sari collection</title>
+    <style>
+        /* * {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+} */
+
+/* body {
+  
+} */
+
+.container {
+    text-align: center;
+    object-position: center;
+  display: inline-block;
+  perspective: 1000px;
+/*   transform-style: preserve-3d; */
+  /* margin-top: 70px; */
+  max-height: 100vh;
+  max-width: 100vw;
+  color: white;
+}
+
+.parallax {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  transform-style: preserve-3d;
+  text-align: center; 
+  /* margin: 100px auto; */
+  transform: rotateX(20deg) rotateY(-20deg);
+ 
+}
+
+.parallax2 {
+  width: 25vw;
+  height: 40vh;
+  background: #f15;
+  position: absolute;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+  /* opacity: 0.5; */
+  
+}
+.parallax5 {
+  width: 25vw;
+  height: 40vh;
+  background: rgb(255, 94, 1);
+  position: absolute;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+  mix-blend-mode: multiply;
+  /* opacity: 0.5; */
+}
+
+.parallax3 {
+  width: 30vw;
+  height: 50vh;
+  background: #518;
+  position: absolute;
+  display: inline-block;
+  margin-top: 160px;
+  /* opacity: 0.5; */
+}
+.parallax4 {
+  width: 20vw;
+  height: 40vh;
+  background:rgb(10, 163, 252);
+  position: absolute;
+  display: inline-block;
+  margin-top: 70px;
+  left: 25%;
+  /* opacity: 0.5; */
+}
+.parallax2, .parallax3, .parallax4,.parallax5:hover {
+    z-index: 10000;
+
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  /* background-color: #f1f1f1;
+  border: 1px solid #d3d3d3; */
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: black;
+  color: #fff;
+}
+.awesome {
+  color: #313131;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
+h1 {
+  font-size: 300%;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row" style="background-color:white;">
+              <div class="column">
+                <a href="index.html">Paritrāṇa Sari collection</a>
+              </div>
+              <div id="myButton" class="column">
+                <a  href=""> Concept</a></div>
+              <div class="column">
+                <a href=""> Process</a>
+              </div>
+            </div>
+            <div class="row" style="background-color:white;">
+              <div class="column">
+                <a href=""> Red sari N°1</a>
+              </div>
+              <div class="column">
+                <a href=""> Orange sari N°2</a>
+              </div>
+              <div class="column">
+                <a href=""> Saffron sari N°3</a>
+              </div>
+              <div class="column">
+                <a href=""> Yellow sari N°4</a>
+              </div>
+              <div class="column" STYLE="letter-spacing:-0.02cm">
+                <a href=""> Turmeric sari N°5</a>
+              </div>
+              <div class="column">
+                <a href=""> Green sari N°6</a>
+              </div>
+              <div class="column">
+                <a href=""> Blue sari N°7</a>
+              </div>
+              <div class="column">
+                <a href=""> Pink sari N°8</a>
+              </div>
+              <div class="column">
+                <a href=""> Black sari N°9</a>
+              </div>
+              <div class="column">
+                <a href=""> White sariN°10</a>
+              </div>
+              <div class="column">
+                <a href=""> Violet sari N°11</a>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="content">
+        
+        <div class="cursor">
+            <div class="cursor__ball cursor__ball--big">
+                <svg height="60" width="60">
+                    <circle cx="15" cy="15" r="16" stroke-width="0"></circle>
+                </svg>
+            </div>
+            <!-- small ball cursor -->
+            <div class="cursor__ball cursor__ball--small">
+                <svg height="10" width="10">
+                    <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+                </svg>
+            </div>
+        </div>
+<!-- <script>
+  $(document).ready(function()
+  {
+    $('buttonLeft','buttonRight').hover(
+      function(){ 
+        $(this).children("div").addClass("cursor-prev", "cursor-next"); //Add an active class to the anchor
+      },
+      function() {
+        $(this).children("div").removeClass("cursor__ball","cursor__ball--big"); //Remove an active class to the anchor
+      }
+   )
+ });
+</script> -->
+
+<div class="container">
+    <div class="parallax">
+      <div id="mydiv1" class="parallax5 hak_div4 awesome"><div id="mydivheader">Couleurs</div>11 couleurs des saris traditonelles pour créer une base pour la collection qui porte chacune des valuers, des symboles, des événements, ou pour des typologies de personnes.</div>
+      <div id="mydiv2" class="parallax2 hak_div3" style="left:20px"><div id="mydivheader">Archivage à travers le machine learning</div><img src="./img/sari.jpeg"> </div>
+      <div id="mydiv3" class="parallax3 hak_div2"><div id="mydivheader">Messages typographiques</div><div style="font-family: serif;">La typographie est là pour dénoner les problèmes de caste verbalement que l’on ferrait par fragment car le tissu est plié et enroulé autour de la femme pour que l’on voit à chaque fois des petit bout d’images qui ont des messages un peu placé stratégiquement partout autour du sari.</div>I have my rights to dignity education and justce like every human being, I am not untouchable. I am human, I am human I am a human being. Who are you to decide my identity and make this carcas a burden I have to hide and carry. We are joyfull people who aren’t just sad and don’0t just work in sewers. Equality only is a possibilty when we are merely at the same level. I am a survivor to this illegal caste based system. I am not a caricature. I am not stuck in this identity that has been imposed on me. Only education can save us, there is hope we can be free from this social code which marginalises us from others.</div>
+      <div id="mydiv4" class="parallax4 hak_div1"><div id="mydivheader">Élements décoratifs</div>Les fleurs en 3D sont une représentation formelle des designs que l’on retrouve sur les saris brodés en 2D. C’est pour faire le lien avec la pratique de production traditionnelle. 
+        <div style="display:table-cell; vertical-align:middle; text-align:center">
+          <img src="./img/rose.png"></div>
+      </div>
+      <div>L’aspect ou problématique de la caste est représenté par la fragmentation des images générés en machine learning. J’ai utlisé le machine learning pour garder une trace comme une archive des designs de saris qui sont poétiquement placés dans les nouvelles images générés, ce qui me permet de garder une trace de la tradition à travers les pixels partagés entre les images qui sont ensuite composés en pattern fragmentés.
+        <div style="display:table-cell; vertical-align:middle; text-align:center">
+          <img style="object-position: center;width: 100vw;display:table-cell; vertical-align:middle; text-align:center;" src="./img/img4.png">
+      </div>
+      <div><h1>&#8592 5m de longeur &#8594</h1></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+    <footer>
+    <div class="row">
+      <div class="column">©Copyright Angelo Barbattini</div>
+      <div class="column">Coded with the help of Pierry Jaquillard and A-mango</div>
+      <div class="column">ECAL 2022</div>
+    
+    </div>
+    <div>Diploma project produced in 2022, a project on saris and positif feminist messages done as an ally as a hommage to my role models in life.</div>
+  </footer>
+
+  <!-- This probably causes layout problems -->
+    <script>
+  $( function() {
+    $( "#mydiv1,#mydiv2,#mydiv3,#mydiv4" ).draggable();
+  } );
+  
+  $('.hak_div1').on('mousedown', function (e) {
+
+    $(this).addClass('hak_active1').parents().on('mousemove', function (e) {
+
+        $('.hak_active1').offset({
+            top: e.pageY - $('.hak_active1').outerHeight() / 3,
+            bottom: e.pageX - $('.hak_active1').outerWidth() / 3
+
+        }).on('mouseup', function () {
+
+            $(this).removeClass('hak_active1');
+
+        });
+        
+    });
+    
+    return false;    
+});
+  
+  $('.hak_div2').on('mousedown', function (e) {
+
+    $(this).addClass('hak_active2').parents().on('mousemove', function (e) {
+
+        $('.hak_active2').offset({
+            top: e.pageY - $('.hak_active2').outerHeight() / 7,
+            bottom: e.pageX - $('.hak_active2').outerWidth() / 7
+
+        }).on('mouseup', function () {
+
+            $(this).removeClass('hak_active2');
+
+        });
+        
+    });
+    
+    return false;    
+});
+  
+  $('.hak_div3').on('mousedown', function (e) {
+
+    $(this).addClass('hak_active3').parents().on('mousemove', function (e) {
+
+        $('.hak_active3').offset({
+            top: e.pageY - $('.hak_active3').outerHeight() / 4.2,
+            bottom: e.pageX - $('.hak_active3').outerWidth() / 4.2
+
+        }).on('mouseup', function () {
+
+            $(this).removeClass('hak_active3');
+
+        });
+        
+    });
+    
+    return false;    
+});
+  
+  $('.hak_div4').on('mousedown', function (e) {
+
+    $(this).addClass('hak_active4').parents().on('mousemove', function (e) {
+
+        $('.hak_active4').offset({
+            top: e.pageY - $('.hak_active4').outerHeight() / 4.2,
+            bottom: e.pageX - $('.hak_active4').outerWidth() / 4.2
+
+        }).on('mouseup', function () {
+
+            $(this).removeClass('hak_active4');
+
+        });
+        
+    });
+    
+    return false;    
+});
+  
+  </script>
+  <canvas id="canvas-ref" width="1400" height="300"></canvas>
+
+  <script src="./js/config.js"></script>
+  <script src="./js/loader.js"></script>
+  <script src="./js/cursor.js"></script>
+  <script src="./js/nav.js"></script>
+  <script src="./js/canvas.js"></script>
+  
+
+  <script>
+    $(document).ready(function(){
+
+var elementX = 0, 
+    elementY = 0,
+    elementW = 0,
+    elementH = 0,
+    mouseX = 0,
+    mouseY = 0;
+
+$(document).mousemove(function(e){
+
+ var position = $(".parallax").offset(),
+ obj = $(".parallax");
+ elementX = position.left;
+ elementY = position.top;
+
+ elementW = obj.width();
+ elementH = obj.height();
+
+ var halfW = elementW/2;
+ var halfH = elementH/2;
+ 
+ mouseX = (e.pageX - elementX - halfW)/halfW;
+ mouseY = (e.pageY - elementY - halfH)/halfH;
+ mouseX = Math.round(mouseX * 100)/100;
+ mouseY = Math.round(mouseY * 100)/100;
+
+ // console.log(elementX+" "+elementY+" "+halfW+" "+halfH);
+
+ $(".parallax").css("transform", "rotateX("+mouseY*-10+"deg) rotateY("+mouseX*10+"deg)");
+
+$(".parallax2").css("transform", "translateX("+mouseX*10+"px) translateY("+mouseY*10+"px)");
+
+$(".parallax3").css("transform", "translateX("+mouseX*30+"px) translateY("+mouseY*30+"px)");
+}); 
+
+});
+</script>
+</body>
+
+</html>

@@ -1,0 +1,559 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Name">
+
+    <link rel="shortcut icon" type="image/png" href="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+    <title>Sari collection</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row" style="background-color:white;">
+              <div class="column">
+                <a href="index.html">Paritrāṇa Sari collection</a>
+              </div>
+              <div id="myButton" class="column">
+                <a  href="" > Concept</a>
+                </div>
+              <div class="column">
+                <a href="process.html"> Process</a>
+              </div>
+            </div>
+            <div class="row" style="background-color:white;">
+              <div class="column">
+                <a href=""> Red sari N°1</a>
+              </div>
+              <div class="column">
+                <a href=""> Orange sari N°2</a>
+              </div>
+              <div class="column">
+                <a href=""> Saffron sari N°3</a>
+              </div>
+              <div class="column">
+                <a href=""> Yellow sari N°4</a>
+              </div>
+              <div class="column" STYLE="letter-spacing:-0.02cm">
+                <a href=""> Turmeric sari N°5</a>
+              </div>
+              <div class="column">
+                <a href=""> Green sari N°6</a>
+              </div>
+              <div class="column">
+                <a href=""> Blue sari N°7</a>
+              </div>
+              <div class="column">
+                <a href=""> Pink sari N°8</a>
+              </div>
+              <div class="column">
+                <a href=""> Black sari N°9</a>
+              </div>
+              <div class="column">
+                <a href=""> White sariN°10</a>
+              </div>
+              <div class="column">
+                <a href=""> Violet sari N°11</a>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="content">
+        
+        <div class="cursor">
+            <div class="cursor__ball cursor__ball--big">
+                <svg height="60" width="60">
+                    <circle cx="15" cy="15" r="16" stroke-width="0"></circle>
+                </svg>
+            </div>
+            <!-- small ball cursor -->
+            <div class="cursor__ball cursor__ball--small">
+                <svg height="10" width="10">
+                    <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+                </svg>
+            </div>
+        </div>
+<script>
+  $(document).ready(function()
+  {
+    $('buttonLeft','buttonRight').hover(
+      function(){ 
+        $(this).children("div").addClass("cursor-prev", "cursor-next"); //Add an active class to the anchor
+      },
+      function() {
+        $(this).children("div").removeClass("cursor__ball","cursor__ball--big"); //Remove an active class to the anchor
+      }
+   )
+ });
+</script>
+        <section class="container">
+            <div class="products">
+                <div class="product product-1">
+                    <div class="left-column image-box">
+                        Colonne gauche - image
+                        <div class="img-wrapper signupsubmit">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper signupsubmit">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper signupsubmit">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper signupsubmit">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper signupsubmit">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                    </div>
+                    <div class="center-column">
+                        <div class="canvas-box">
+                            <canvas class="visible" id="canvas0" width="1400" height="300"></canvas>
+                        </div>
+                        <div class="row_1">
+                            <div class="column_1">
+                              <div id="top">
+                                <a id="close" href="">Reset tissue —</a>
+                              </div>
+                            </div>
+                            <div class="column_1">
+                              <div>
+                               <p>This project is based on the red celebratory color………</p>
+                               
+                              </div>
+                            </div>
+                            <div class="column_1">
+                              <div style="background-color:red;height: 50px;width: 50px;"></div>
+                            </div>
+                          </div>
+                        <div class="text-box signupsubmit">
+                            Red is a celebratory color. It commemorates a couple’s union. It symbolizes love, sensuality, and passion. That’s why it features prominently in auspicious occasions, such as weddings, festivals, and births. As red also signifies chastity, it is the color of choice for brides. After the wedding ceremony, the bride adopts a red spot on the forehead called “bindi,” which cements her marital status. When she dies, her family wraps her in red fabric for cremation.
+As red also depicts dominance, it empowers the saree wearer and draws attention toward her. It’s no surprise that extroverts and A-type personalities prefer red. Pairing a red saree with a gold top amplifies the look. To tone it down, use a silver blouse instead. Accessorize with silver or gold jewelry.
+Red is associated with Durga, a Hindu goddess with a red tongue, red eyes, and a blazing image. That’s why devotees use it extensively in prayer rituals. Worshippers throw red powder on deities’ statues during prayer ceremonies and phallic symbols because red is the color of Kshatriya, the warrior caste.  Designers dress charitable, brave, and protective deities in red.
+Red also symbolizes fertility and prosperity because it is the color of the clay that produces spices and harvests, which in turn, improve lives.
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product product-2">
+                    <div class="left-column image-box">
+                        Colonne gauche - image
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                    </div>
+                    <div class="center-column">
+                        <div class="canvas-box">
+                          <canvas class="visible" id="canvas1" width="1400" height="300"></canvas>
+                        </div>
+                        <div class="row_1">
+                            <div class="column_1">
+                              <div id="top">
+                                <a id="close" href="">Reset tissue —</a>
+                              </div>
+                            </div>
+                            <div class="column_1">
+                              <div>
+                               <p>This project is based on the red celebratory color………</p>
+                               
+                              </div>
+                            </div>
+                            <div class="column_1">
+                              <div style="background-color:red;height: 50px;width: 50px;"></div>
+                            </div>
+                          </div>
+                        <div class="text-box signupsubmit">
+                          Orange attracts attention and energy like the color red, except it’s more sedate. It signifies freshness and brightness. Not all skin tones can carry this color, but for those whose complexions can pull it off in their clothing, it helps put them in a sunny disposition.
+                          According to CNN’s Colorscope report, a series exploring color perception across cultures,  many Eastern religions consider orange a sacred color. In Hinduism, orange represents fire and virtuosity. That’s why their monks wear orange robes. Buddhist ones too.
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product product-3">
+                    <div class="left-column image-box">
+                        Colonne gauche - image
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                    </div>
+                    <div class="center-column">
+                      <div class="canvas-box">
+                          <canvas class="visible" id="canvas2" width="1400" height="300"></canvas>
+                      </div>
+                      <div class="row_1">
+                          <div class="column_1">
+                            <div id="top">
+                              <a id="close" href="">Reset tissue —</a>
+                            </div>
+                          </div>
+                          <div class="column_1">
+                            <div>
+                             <p>This project is based on the red celebratory color………</p>
+                             
+                            </div>
+                          </div>
+                          <div class="column_1">
+                            <div style="background-color:red;height: 50px;width: 50px;"></div>
+                          </div>
+                        </div>
+                      <div class="text-box signupsubmit">
+                          Red is a celebratory color. It commemorates a couple’s union. It symbolizes love, sensuality, and passion. That’s why it features prominently in auspicious occasions, such as weddings, festivals, and births. As red also signifies chastity, it is the color of choice for brides. After the wedding ceremony, the bride adopts a red spot on the forehead called “bindi,” which cements her marital status. When she dies, her family wraps her in red fabric for cremation.
+As red also depicts dominance, it empowers the saree wearer and draws attention toward her. It’s no surprise that extroverts and A-type personalities prefer red. Pairing a red saree with a gold top amplifies the look. To tone it down, use a silver blouse instead. Accessorize with silver or gold jewelry.
+Red is associated with Durga, a Hindu goddess with a red tongue, red eyes, and a blazing image. That’s why devotees use it extensively in prayer rituals. Worshippers throw red powder on deities’ statues during prayer ceremonies and phallic symbols because red is the color of Kshatriya, the warrior caste.  Designers dress charitable, brave, and protective deities in red.
+Red also symbolizes fertility and prosperity because it is the color of the clay that produces spices and harvests, which in turn, improve lives.
+
+                      </div>
+                  </div>
+                </div>
+
+                <div class="product product-4">
+                    <div class="left-column image-box">
+                        Colonne gauche - image
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="./img/model.png" alt="Model" />
+                        </div>
+                    </div>
+                    <div class="center-column">
+                      <div class="canvas-box">
+                          <canvas class="visible" id="canvas3" width="1400" height="300"></canvas>
+                      </div>
+                      <div class="row_1">
+                          <div class="column_1">
+                            <div id="top">
+                              <a id="close" href="">Reset tissue —</a>
+                            </div>
+                          </div>
+                          <div class="column_1">
+                            <div>
+                             <p>This project is based on the red celebratory color………</p>
+                             
+                            </div>
+                          </div>
+                          <div class="column_1">
+                            <div style="background-color:red;height: 50px;width: 50px;"></div>
+                          </div>
+                        </div>
+                      <div class="text-box signupsubmit">
+                          Red is a celebratory color. It commemorates a couple’s union. It symbolizes love, sensuality, and passion. That’s why it features prominently in auspicious occasions, such as weddings, festivals, and births. As red also signifies chastity, it is the color of choice for brides. After the wedding ceremony, the bride adopts a red spot on the forehead called “bindi,” which cements her marital status. When she dies, her family wraps her in red fabric for cremation.
+As red also depicts dominance, it empowers the saree wearer and draws attention toward her. It’s no surprise that extroverts and A-type personalities prefer red. Pairing a red saree with a gold top amplifies the look. To tone it down, use a silver blouse instead. Accessorize with silver or gold jewelry.
+Red is associated with Durga, a Hindu goddess with a red tongue, red eyes, and a blazing image. That’s why devotees use it extensively in prayer rituals. Worshippers throw red powder on deities’ statues during prayer ceremonies and phallic symbols because red is the color of Kshatriya, the warrior caste.  Designers dress charitable, brave, and protective deities in red.
+Red also symbolizes fertility and prosperity because it is the color of the clay that produces spices and harvests, which in turn, improve lives.
+
+                      </div>
+                  </div>
+                </div>
+                <div class="product product-5">
+                  <div class="left-column image-box">
+                      Colonne gauche - image
+                      <div class="img-wrapper">
+                          <img src="./img/model.png" alt="Model" />
+                      </div>
+                      <div class="img-wrapper">
+                          <img src="./img/model.png" alt="Model" />
+                      </div>
+                      <div class="img-wrapper">
+                          <img src="./img/model.png" alt="Model" />
+                      </div>
+                      <div class="img-wrapper">
+                          <img src="./img/model.png" alt="Model" />
+                      </div>
+                      <div class="img-wrapper">
+                          <img src="./img/model.png" alt="Model" />
+                      </div>
+                  </div>
+                  <div class="center-column">
+                    <div class="canvas-box">
+                        <canvas class="visible" id="canvas4" width="1400" height="300"></canvas>
+                    </div>
+                    <div class="row_1">
+                        <div class="column_1">
+                          <div id="top">
+                            <a id="close" href="">Reset tissue —</a>
+                          </div>
+                        </div>
+                        <div class="column_1">
+                          <div>
+                           <p>This project is based on the red celebratory color………</p>
+                           
+                          </div>
+                        </div>
+                        <div class="column_1">
+                          <div style="background-color:red;height: 50px;width: 50px;"></div>
+                        </div>
+                      </div>
+                    <div class="text-box signupsubmit">
+                        Red is a celebratory color. It commemorates a couple’s union. It symbolizes love, sensuality, and passion. That’s why it features prominently in auspicious occasions, such as weddings, festivals, and births. As red also signifies chastity, it is the color of choice for brides. After the wedding ceremony, the bride adopts a red spot on the forehead called “bindi,” which cements her marital status. When she dies, her family wraps her in red fabric for cremation.
+As red also depicts dominance, it empowers the saree wearer and draws attention toward her. It’s no surprise that extroverts and A-type personalities prefer red. Pairing a red saree with a gold top amplifies the look. To tone it down, use a silver blouse instead. Accessorize with silver or gold jewelry.
+Red is associated with Durga, a Hindu goddess with a red tongue, red eyes, and a blazing image. That’s why devotees use it extensively in prayer rituals. Worshippers throw red powder on deities’ statues during prayer ceremonies and phallic symbols because red is the color of Kshatriya, the warrior caste.  Designers dress charitable, brave, and protective deities in red.
+Red also symbolizes fertility and prosperity because it is the color of the clay that produces spices and harvests, which in turn, improve lives.
+
+                    </div>
+                </div>
+              </div>
+              <div class="product product-6">
+                <div class="left-column image-box">
+                    Colonne gauche - image
+                    <div class="img-wrapper">
+                        <img src="./img/model.png" alt="Model" />
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="./img/model.png" alt="Model" />
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="./img/model.png" alt="Model" />
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="./img/model.png" alt="Model" />
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="./img/model.png" alt="Model" />
+                    </div>
+                </div>
+                <div class="center-column">
+                  <div class="canvas-box">
+                      <canvas class="visible" id="canvas5" width="1400" height="300"></canvas>
+                  </div>
+                  <div class="row_1">
+                      <div class="column_1">
+                        <div id="top">
+                          <a id="close" href="">Reset tissue —</a>
+                        </div>
+                      </div>
+                      <div class="column_1">
+                        <div>
+                         <p>This project is based on the red celebratory color………</p>
+                         
+                        </div>
+                      </div>
+                      <div class="column_1">
+                        <div style="background-color:red;height: 50px;width: 50px;"></div>
+                      </div>
+                    </div>
+                  <div class="text-box signupsubmit">
+                      Red is a celebratory color. It commemorates a couple’s union. It symbolizes love, sensuality, and passion. That’s why it features prominently in auspicious occasions, such as weddings, festivals, and births. As red also signifies chastity, it is the color of choice for brides. After the wedding ceremony, the bride adopts a red spot on the forehead called “bindi,” which cements her marital status. When she dies, her family wraps her in red fabric for cremation.
+As red also depicts dominance, it empowers the saree wearer and draws attention toward her. It’s no surprise that extroverts and A-type personalities prefer red. Pairing a red saree with a gold top amplifies the look. To tone it down, use a silver blouse instead. Accessorize with silver or gold jewelry.
+Red is associated with Durga, a Hindu goddess with a red tongue, red eyes, and a blazing image. That’s why devotees use it extensively in prayer rituals. Worshippers throw red powder on deities’ statues during prayer ceremonies and phallic symbols because red is the color of Kshatriya, the warrior caste.  Designers dress charitable, brave, and protective deities in red.
+Red also symbolizes fertility and prosperity because it is the color of the clay that produces spices and harvests, which in turn, improve lives.
+
+                  </div>
+              </div>
+            </div>
+            <div class="product product-7">
+              <div class="left-column image-box">
+                  Colonne gauche - image
+                  <div class="img-wrapper">
+                      <img src="./img/model.png" alt="Model" />
+                  </div>
+                  <div class="img-wrapper">
+                      <img src="./img/model.png" alt="Model" />
+                  </div>
+                  <div class="img-wrapper">
+                      <img src="./img/model.png" alt="Model" />
+                  </div>
+                  <div class="img-wrapper">
+                      <img src="./img/model.png" alt="Model" />
+                  </div>
+                  <div class="img-wrapper">
+                      <img src="./img/model.png" alt="Model" />
+                  </div>
+              </div>
+              <div class="center-column">
+                <div class="canvas-box">
+                    <canvas class="visible" id="canvas6" width="1400" height="300"></canvas>
+                </div>
+                <div class="row_1">
+                    <div class="column_1">
+                      <div id="top">
+                        <a id="close" href="">Reset tissue —</a>
+                      </div>
+                    </div>
+                    <div class="column_1">
+                      <div>
+                       <p>This project is based on the red celebratory color………</p>
+                       
+                      </div>
+                    </div>
+                    <div class="column_1">
+                      <div style="background-color:red;height: 50px;width: 50px;"></div>
+                    </div>
+                  </div>
+                <div class="text-box signupsubmit">
+                    Red is a celebratory color. It commemorates a couple’s union. It symbolizes love, sensuality, and passion. That’s why it features prominently in auspicious occasions, such as weddings, festivals, and births. As red also signifies chastity, it is the color of choice for brides. After the wedding ceremony, the bride adopts a red spot on the forehead called “bindi,” which cements her marital status. When she dies, her family wraps her in red fabric for cremation.
+As red also depicts dominance, it empowers the saree wearer and draws attention toward her. It’s no surprise that extroverts and A-type personalities prefer red. Pairing a red saree with a gold top amplifies the look. To tone it down, use a silver blouse instead. Accessorize with silver or gold jewelry.
+Red is associated with Durga, a Hindu goddess with a red tongue, red eyes, and a blazing image. That’s why devotees use it extensively in prayer rituals. Worshippers throw red powder on deities’ statues during prayer ceremonies and phallic symbols because red is the color of Kshatriya, the warrior caste.  Designers dress charitable, brave, and protective deities in red.
+Red also symbolizes fertility and prosperity because it is the color of the clay that produces spices and harvests, which in turn, improve lives.
+
+                </div>
+            </div>
+          </div>
+          <div class="product product-8">
+            <div class="left-column image-box">
+                Colonne gauche - image
+                <div class="img-wrapper">
+                    <img src="./img/model.png" alt="Model" />
+                </div>
+                <div class="img-wrapper">
+                    <img src="./img/model.png" alt="Model" />
+                </div>
+                <div class="img-wrapper">
+                    <img src="./img/model.png" alt="Model" />
+                </div>
+                <div class="img-wrapper">
+                    <img src="./img/model.png" alt="Model" />
+                </div>
+                <div class="img-wrapper">
+                    <img src="./img/model.png" alt="Model" />
+                </div>
+            </div>
+            <div class="center-column">
+              <div class="canvas-box">
+                  <canvas class="visible" id="canvas7" width="1400" height="300"></canvas>
+              </div>
+              <div class="row_1">
+                  <div class="column_1">
+                    <div id="top">
+                      <a id="close" href="">Reset tissue —</a>
+                    </div>
+                  </div>
+                  <div class="column_1">
+                    <div>
+                     <p>This project is based on the red celebratory color………</p>
+                     
+                    </div>
+                  </div>
+                  <div class="column_1">
+                    <div style="background-color:red;height: 50px;width: 50px;"></div>
+                  </div>
+                </div>
+              <div class="text-box signupsubmit">
+                  Red is a celebratory color. It commemorates a couple’s union. It symbolizes love, sensuality, and passion. That’s why it features prominently in auspicious occasions, such as weddings, festivals, and births. As red also signifies chastity, it is the color of choice for brides. After the wedding ceremony, the bride adopts a red spot on the forehead called “bindi,” which cements her marital status. When she dies, her family wraps her in red fabric for cremation.
+As red also depicts dominance, it empowers the saree wearer and draws attention toward her. It’s no surprise that extroverts and A-type personalities prefer red. Pairing a red saree with a gold top amplifies the look. To tone it down, use a silver blouse instead. Accessorize with silver or gold jewelry.
+Red is associated with Durga, a Hindu goddess with a red tongue, red eyes, and a blazing image. That’s why devotees use it extensively in prayer rituals. Worshippers throw red powder on deities’ statues during prayer ceremonies and phallic symbols because red is the color of Kshatriya, the warrior caste.  Designers dress charitable, brave, and protective deities in red.
+Red also symbolizes fertility and prosperity because it is the color of the clay that produces spices and harvests, which in turn, improve lives.
+
+              </div>
+          </div>
+        </div>
+        <div class="product product-9">
+          <div class="left-column image-box">
+              Colonne gauche - image
+              <div class="img-wrapper">
+                  <img src="./img/model.png" alt="Model" />
+              </div>
+              <div class="img-wrapper">
+                  <img src="./img/model.png" alt="Model" />
+              </div>
+              <div class="img-wrapper">
+                  <img src="./img/model.png" alt="Model" />
+              </div>
+              <div class="img-wrapper">
+                  <img src="./img/model.png" alt="Model" />
+              </div>
+              <div class="img-wrapper">
+                  <img src="./img/model.png" alt="Model" />
+              </div>
+          </div>
+          <div class="center-column">
+            <div class="canvas-box">
+                <canvas class="visible" id="canvas8" width="1400" height="300"></canvas>
+            </div>
+            <div class="row_1">
+                <div class="column_1">
+                  <div id="top">
+                    <a id="close" href="">Reset tissue —</a>
+                  </div>
+                </div>
+                <div class="column_1">
+                  <div>
+                   <p>This project is based on the red celebratory color………</p>
+                   
+                  </div>
+                </div>
+                <div class="column_1">
+                  <div style="background-color:red;height: 50px;width: 50px;"></div>
+                </div>
+              </div>
+            <div class="text-box signupsubmit">
+                Red is a celebratory color. It commemorates a couple’s union. It symbolizes love, sensuality, and passion. That’s why it features prominently in auspicious occasions, such as weddings, festivals, and births. As red also signifies chastity, it is the color of choice for brides. After the wedding ceremony, the bride adopts a red spot on the forehead called “bindi,” which cements her marital status. When she dies, her family wraps her in red fabric for cremation.
+As red also depicts dominance, it empowers the saree wearer and draws attention toward her. It’s no surprise that extroverts and A-type personalities prefer red. Pairing a red saree with a gold top amplifies the look. To tone it down, use a silver blouse instead. Accessorize with silver or gold jewelry.
+Red is associated with Durga, a Hindu goddess with a red tongue, red eyes, and a blazing image. That’s why devotees use it extensively in prayer rituals. Worshippers throw red powder on deities’ statues during prayer ceremonies and phallic symbols because red is the color of Kshatriya, the warrior caste.  Designers dress charitable, brave, and protective deities in red.
+Red also symbolizes fertility and prosperity because it is the color of the clay that produces spices and harvests, which in turn, improve lives.
+
+            </div>
+        </div>
+      </div>
+            </div>
+            <div class="hidden buttonLeft"></div>
+            <div class="hidden buttonRight"></div>
+        </section>
+    </div>
+    <footer>
+    <div class="row">
+      <div class="column">©Copyright Angelo Barbattini</div>
+      <div class="column">Coded with the help of Pierry Jaquillard and A-mango</div>
+      <div class="column">ECAL 2022</div>
+    
+    </div>
+    <div>Diploma project produced in 2022, a project on saris and positif feminist messages done as an ally as a hommage to my role models in life.</div>
+  </footer>
+
+  <!-- This probably causes layout problems -->
+  <canvas id="canvas-ref" width="1400" height="300"></canvas>
+
+  <script src="./js/config.js"></script>
+  <script src="./js/loader.js"></script>
+  <script src="./js/cursor.js"></script>
+  <script src="./js/nav.js"></script>
+  <script src="./js/canvas.js"></script>
+</body>
+
+</html>
